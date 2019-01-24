@@ -1,0 +1,184 @@
+body	{
+	font-family: 'Open Sans', sans-serif !important;
+	margin: 0;
+	overflow-y: scroll;
+	position: relative;
+}
+
+header	{
+	width: 100%;
+	position: fixed;
+	background-color: #e0ebe8;
+	height: 50px;
+	padding-top: 10px;
+}
+
+navbar	{
+	float: right;
+	padding-right: 20px;
+	padding-top: 10px;
+}
+
+.nav-link	{
+	text-decoration: none;
+	color: #008080;
+	width: 50px;
+	margin: 30px;
+	font-size: 18px;
+}
+
+.nav-link:hover	{
+	color: green;
+}
+
+#welcome-section	{
+	background-color: #e0ebe8;
+	margin: 0;
+	height: 100vh;
+	position: relative;
+	text-align: center;
+}
+
+#introduction	{
+	margin: 0;
+  position: absolute;
+  top: 50%;
+	width: 300px;
+	left: 50%;
+	margin-left: -150px;
+}
+
+#introduction > p	{
+	color: #008080;
+	font-size: 18px;
+}
+
+#introduction > h1	{
+	font-size: 30px;
+}
+
+#projects	{
+	background-color: white;
+	text-align: center;
+	display: block;
+}
+
+#projects > h2	{
+	color: #008080;
+	font-weight: 200;
+}
+
+#project-list	{
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 1600px;
+	justify-content: center;
+}
+
+.project-tile	{
+	color: #008080;
+	border: 1px solid lightblue;
+	width: 300px;
+	margin: 50px;
+}
+
+.project-tile > hr	{
+	color: lightblue;
+	margin: 0px;
+	padding: 0;
+}
+
+.project-pic	{
+	margin: 0px;
+	padding: 0px;
+}
+
+.project-title	{
+	text-decoration: none;
+	color: #008080;
+	font-weight: 800;
+}
+
+.project-title:hover	{
+	color: lightblue;
+}
+
+#show-all	{
+	width: 200px;
+	height: 40px;
+	border-radius: 4px;
+	background: #e0ebe8;
+  color: #008080;
+	font-size: 18px;
+	border: 2px solid #90C695;
+	margin-bottom: 40px;
+	font-weight: 600;
+}
+
+#show-all:hover	{
+	cursor: pointer;
+	opacity: 0.7;
+}
+
+#connect	{
+	background-color: #C8F7C5;
+	height: 80vh;
+	display: block;
+	text-align: center;
+	padding-top: 120px;
+	margin: 0px;
+}
+
+#connect > h1	{
+	font-size: 36px;
+}
+
+#connect > p	{
+	font-size: 20px;
+	margin-top: -20px;
+	margin-bottom: 50px;
+}
+
+#contact	{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.contact-link	{
+	border: 2px solid green;
+	text-decoration: none;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	line-height: 100px;
+	text-align: center;
+	margin: 30px;
+	background-color: white;
+}
+
+.contact-link:hover	{
+	background-color: lightgreen;
+}
+
+footer	{
+	height: 100px;
+	background-color: black;
+	opacity: 0.8;
+	color: white;
+	text-align: center;
+}
+
+#freecodecamp-link	{
+	color: white;
+}
+
+@media (max-width: 800px)	{
+	navbar	{
+		float: none;
+		padding-right: 0px;
+	}
+	.nav-link	{
+		line-height: 50px;
+	}
+}
